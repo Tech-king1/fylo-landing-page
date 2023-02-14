@@ -114,6 +114,7 @@ ul li .nav_link{
 .feature__link{
     text-decoration: none;
     margin-bottom: 8rem;
+    color: darkgreen;
 }
 
 .testimonial{
@@ -173,13 +174,14 @@ ul li .nav_link{
 
   .contact__form {
     width: 50%;
+    padding-bottom: 20px;
   }
 
   .contact input.contact__input {
     display: block;
     width: 100%;
     padding: 1em;
-    margin-bottom: 2rem;
+    margin-bottom: 0.6rem
   }
 
   .contact button.contact__button {
@@ -206,7 +208,6 @@ footer .logo{
 
 .wrappper{
     display: flex;
-    justify-content: space-around;
 }
 
 
@@ -307,11 +308,10 @@ footer .logo{
         justify-content: center;
         align-items: center;
         background-color: hsl(240deg, 75%, 98%);
-        padding: 10px;
+        padding: 20px;
     }
 
     .feature_container{
-        text-align: center;
         order: 2;
     }
 
@@ -321,9 +321,9 @@ footer .logo{
     }
 
     .testimonial{
-        margin: 0 auto;
+        margin: 1.5rem auto;
     }
-
+    
     .contact {
         display: flex;
         flex-direction: column;
@@ -358,7 +358,7 @@ footer .logo{
     }
 
     ul li{
-        margin-left: 5px;
+        margin-left: 10px;
     }
 
     ul li .nav_link{
@@ -375,24 +375,13 @@ footer .logo{
         align-items: center;
     }
 
-    /* .introduction_content{
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
+    .feature__link{
+        padding: 0 5rem 3rem 5rem;
+    }
 
-    /* .content{
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
-
-    .feature{
-        margin-bottom: 4rem;
+    .testimonial{
+        width: 90%;
+        margin-top: 1.5rem;
     }
 
 
@@ -400,6 +389,30 @@ footer .logo{
         display: block;
         width: 100%;
     }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contact__content{
+        width: 90%;
+    }
+
+    .contact__form {
+        width: 80%;
+        padding-bottom: 20px;
+      }
+
+    .contact input.contact__input {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.4rem;
+      }
 
     .content .introduction_title{
         line-height: 2.6rem;
@@ -424,6 +437,10 @@ footer .logo{
         font-size: 15px;
     }
 
+    footer{
+        padding: 10px;
+     }
+
     .wrappper{
         display: flex;
         flex-direction: column;
@@ -435,6 +452,7 @@ footer .logo{
     }
 
     .social__list{
+        width: 100%;
         display: flex;
         justify-content: center;
     }
